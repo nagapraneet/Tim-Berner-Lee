@@ -1,0 +1,94 @@
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: aliceblue;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    opacity: 0.83;
+    background: linear-gradient(red 40%, orange 60%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9px;
+}
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: crimson;
+    text-decoration: underline;
+    font-size: 25px;
+}
+#name {
+    font-size: 30px;
+    line-height: 1.2px;
+    font-family: 'Shadows Into Light', cursive; 
+}
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+h1 {
+   font-size: 40px;
+   font-family: monospace;
+   font-weight: 300;
+}
+h2 {
+   font-size: 30px;
+   font-family: monospace;
+   font-weight: 300;
+   line-height: 1.2;
+}
+#bio {
+    padding: 50px;
+    text-align: center
+}
+.line {
+    height; 6px;
+    background-color: chocolate;
+    width: 70px;
+    margin: 8px auto;
+}
+.parralax-inner {
+    display: table-cell; 
+    position: relative; 
+    text-align: center; 
+    vertical-align: middle;
+}
+p {
+    max-width: 450px; 
+    margin: 25px auto; 
+    font-size: 17px; 
+    line-height: 1.3;
+}
+a { 
+    text-decoration: none; 
+} 
+.article:hover { 
+    color:fuchsia; 
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
